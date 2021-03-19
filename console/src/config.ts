@@ -6,5 +6,6 @@ export const appConfig = {
         apiKey: process.env.KITE_API_KEY || '',
         secretKey: process.env.KITE_SECRET_KEY  || '',
         clientId: process.env.KITE_CLIENT_ID || '',
+        loginPath: process.env.KITE_LOGIN_PATH || '',
     }
 }
